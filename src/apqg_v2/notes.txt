@@ -1,0 +1,20 @@
+Things to do:
+    1. Marks distribution algorithm
+        - Approach 1: Linear regression to find the best combination of quantities of blooms level as per difficulty and no. of questions.
+            - y = c1*x1 + c2*x2 + c3*x3
+              and
+              (c1new - c1old)^2 + (c2new - c2old)^2 + (c3new - c3old)^2 is minimum
+              where x: marks, c: quantity, y: tot_marks
+              
+              In linear regression, we estimate the value of the coefficients
+
+
+
+    2. Handle: No. of questions > Pool of questions (for one or more blooms levels)
+    3. Beam search for variety
+        - Generate multiple question paper sets
+    4. Handle duplicates
+    5. Add warnings to frontend
+    6. Input: DeepPDF / User selects relevant parts of the text after uploading
+    7. Output: Document file
+

@@ -1,0 +1,8 @@
+# Ignore data directory
+src/apqg_v2/app/data/
+
+# Ignore trained models
+src/trained_models/
+
+# Ignore react scripts
+qpg react/
